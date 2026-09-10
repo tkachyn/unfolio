@@ -20,6 +20,7 @@ export function VerticalRule({ className = "panel__rule" }: VerticalRuleProps) {
     }
 
     const apply = (restart: boolean) => {
+      // scale the drop animation to the rendered rule height
       const height = el.getBoundingClientRect().height;
       const rem = Number.parseFloat(
         getComputedStyle(document.documentElement).fontSize,

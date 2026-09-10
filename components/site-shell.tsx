@@ -5,6 +5,7 @@ import { HoverLink } from "@/components/hover-link";
 import { site } from "@/site";
 
 export function SiteShell({ children }: { children: ReactNode }) {
+  // keep navigation and footer consistent across every route
   return (
     <div className="shell">
       <header className="site-header">

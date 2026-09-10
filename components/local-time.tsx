@@ -17,6 +17,7 @@ function readPart(
 }
 
 function readClock(date: Date): Clock {
+  // format in the configured zone instead of the visitor's local zone
   const parts = new Intl.DateTimeFormat("en-US", {
     timeZone: site.location.timeZone,
     hour: "numeric",

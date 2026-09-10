@@ -4,6 +4,7 @@ import { SiteShell } from "@/components/site-shell";
 import { site, siteStyle } from "@/site";
 import "./globals.css";
 
+// register fonts at the root so every route shares the same CSS variables
 const geist = Geist({
   variable: "--font-sans",
   subsets: ["latin"],

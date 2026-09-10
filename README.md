@@ -42,8 +42,8 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 2. Replace the John Doe placeholder content with your own information.
 3. Save the file and refresh the development server.
 
-For a complete field-by-field guide, read
-[Editing `site.ts`](./docs/editing-site.md).
+For a complete field-by-field guide, read the guide on
+[editing site.ts](./docs/editing-site.md).
 
 The browser tab currently uses the default starter icon from
 [`app/favicon.ico`](./app/favicon.ico). Replace that file with your own

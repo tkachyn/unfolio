@@ -8,6 +8,7 @@ import { site, type Project } from "@/site";
 export function ProjectList() {
   const [active, setActive] = useState<Project | null>(null);
 
+  // keep modal state local so project content remains editable in site.ts
   return (
     <>
       <div className="list">

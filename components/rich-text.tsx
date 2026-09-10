@@ -1,5 +1,6 @@
 import { HoverLink } from "@/components/hover-link";
 
+// support the link syntax used in site.ts without adding a markdown dependency
 const LINK = /\[([^\]]+)\]\(([^)\s]+)\)/g;
 
 function isExternal(href: string) {

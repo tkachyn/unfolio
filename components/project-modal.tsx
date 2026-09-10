@@ -16,6 +16,7 @@ export function ProjectModal({ project, onClose }: ProjectModalProps) {
   const leavingRef = useRef(false);
   const [leaving, setLeaving] = useState(false);
 
+  // keep the latest callback without restarting modal listeners
   useEffect(() => {
     onCloseRef.current = onClose;
   }, [onClose]);
@@ -53,6 +54,7 @@ export function ProjectModal({ project, onClose }: ProjectModalProps) {
     };
   }, [requestClose]);
 
+  // delay unmounting until the exit animation can finish
   useEffect(() => {
     if (!leaving) {
       return;

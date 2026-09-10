@@ -7,6 +7,7 @@ export function CopyEmail() {
   const [copied, setCopied] = useState(false);
 
   const copy = async () => {
+    // keep a DOM fallback for browsers without the async clipboard API
     try {
       await navigator.clipboard.writeText(site.email);
     } catch {

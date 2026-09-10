@@ -16,6 +16,7 @@ export function HoverLink({
   const className = `hover-link hover-link--${variant}`;
 
   if (external) {
+    // use a plain anchor so external URLs bypass client-side routing
     return (
       <a
         href={href}

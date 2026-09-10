@@ -855,6 +855,7 @@ a {
   }
 }
 
+/* preserve final visibility states when configurable motion is disabled */
 html[data-motion="off"] {
   scroll-behavior: auto;
 }
