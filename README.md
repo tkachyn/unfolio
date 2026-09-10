@@ -8,7 +8,7 @@ login, CMS, or external content API.
 
 ## preview
 
-Here is a walkthrough of the mock site:
+Here is a walkthrough of the [mock site](https://unfolio-one.vercel.app/):
 
 ![portfolio site walkthrough](./docs/example.gif)
 
