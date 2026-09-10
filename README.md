@@ -68,13 +68,13 @@ Internal links use paths such as `/projects`. External links use complete
 
 ## project structure
 
-```text
-app/             page routes and global styles
-components/      reusable interface components
-docs/             customization documentation
-public/           static assets
-site.ts          all editable content and visual settings
-```
+| path | purpose |
+| --- | --- |
+| `app/` | page routes and global styles |
+| `components/` | reusable interface components |
+| `docs/` | customization documentation |
+| `public/` | static assets |
+| `site.ts` | all editable content and visual settings |
 
 ## license
 
