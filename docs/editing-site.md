@@ -24,6 +24,7 @@ footer:
 - `name`: your display name
 - `tagline`: the short line below your name
 - `email`: the address shown in the footer and copied by the email button
+- `url`: the public site URL used by `robots.txt` and `sitemap.xml`
 
 The name is also used as the browser title and the default metadata
 description.

@@ -118,6 +118,7 @@ export const site = {
   tagline: "placeholder tagline",
 
   email: "john.doe@example.com",
+  url: "https://unfolio-one.vercel.app",
 
   location: {
     city: "your city",
